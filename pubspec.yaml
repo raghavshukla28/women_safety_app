@@ -1,0 +1,46 @@
+name: women_safety_app
+description: A starting point for Dart libraries or applications.
+version: 1.0.0
+
+environment:
+  sdk: ">=3.5.3 <4.0.0"
+
+# Dependencies for your app
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_sound: ^9.17.0
+  path_provider: ^2.1.5
+  google_fonts: ^5.0.0    # For custom fonts (e.g., Poppins)
+  cupertino_icons: ^1.0.5 # For iOS style icons
+  flutter_animate: ^4.3.0 # For animations if needed
+  permission_handler: ^11.3.1 # for permissions
+  geolocator: ^13.0.2
+  shared_preferences: ^2.2.2
+  url_launcher: ^6.2.5
+  provider: ^6.1.1
+  tflite: 1.1.2
+  http: ^1.2.2
+tflite:
+  path: local_packages/tflite
+# Dev dependencies for your app
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lints: ^4.0.0
+  test: ^1.24.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/img.png" # Path to your icon
+
+# flutter specific configuration
+flutter:
+  assets:
+    - assets/default_user.png
+  uses-material-design: true
+
+# Assets configuration (uncomment and add if you have assets like images)
+
